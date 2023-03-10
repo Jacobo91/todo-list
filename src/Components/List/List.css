@@ -1,0 +1,21 @@
+.task-list{
+    list-style: none;
+    display: flex;
+}
+
+p{
+    flex: 10;
+    text-indent: 10px;
+    color: white;
+}
+
+.delete-btn{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.fa-trash{
+    color: rgb(251, 102, 2);
+}

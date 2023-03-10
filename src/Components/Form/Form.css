@@ -1,0 +1,32 @@
+.add-task-form{
+    min-height: 40px;
+    display: flex;
+}
+
+.add-task-form--input{
+    flex: 5;
+    text-indent: 5px;
+    border: transparent;
+    border-bottom: 1px solid rgb(251, 102, 2);
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.add-task-form--input::placeholder{
+    color: white;
+}
+
+.add-task-form--button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 50%;
+    background-color: rgb(251, 102, 2);
+    color: white;
+}
+
+.fa-plus{
+    font-size: 20px;
+}

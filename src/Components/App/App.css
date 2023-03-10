@@ -1,0 +1,19 @@
+
+.App{
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(251, 102, 2);
+}
+
+ul{
+    padding: 0;
+}
+
+@media only screen and (max-width: 425px) {
+    .App{
+        width: 360px;
+    }
+}
